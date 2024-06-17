@@ -1,0 +1,30 @@
+
+html, body { overflow: hidden;}
+
+* { margin: 0; padding: 0; }
+
+.debuginfo {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    font-family: monospace;
+    padding: 0.25rem 0.5rem;
+    color: darkred;
+    background-color: lightgrey;
+    z-index: 1;
+}
+
+.debugpanel {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: lightgrey;
+    z-index: 1;
+    padding: 0 0.25rem;
+}
+
+.debugpanel button {
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+}
